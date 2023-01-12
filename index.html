@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 11</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/slider.css">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href=" #" class="logo">Company<span class="sublogo">Logo</span></a>
+        <a href="#">Services</a>
+        <a href="#">Advantages</a>
+        <a href="#">Reviews</a>
+        <a href="#">Contacts</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!--Sliders-->
+    <div class="mySlides fade img">
+        <img src="./images/argonath.png" alt="" style="width: 100%;" />
+    </div>
+    <div class="mySlides fade img">
+        <img src="./images/mount doom.png" alt="" style="width: 100%;" />
+    </div>
+    <div class="mySlides fade img">
+        <img src="./images/isengard.png" alt="" style="width: 100%;" />
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div style="text-align: center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/slider.js"></script>
+
+</body>
+
+</html>
